@@ -1,4 +1,4 @@
-package engsoft.travisintegration;
+package engsoft.travisintegration.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -6,8 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("ExampleTest")
-public class ExampleTest {
+import engsoft.travisintegration.Calculator;
+
+@DisplayName("CalculatorExample")
+public class CalculatorTest {
 
 	@Test
 	void correctExample() {
